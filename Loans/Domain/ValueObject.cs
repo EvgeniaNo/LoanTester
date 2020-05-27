@@ -15,6 +15,7 @@ namespace Loans.Domain
             {
                 return false;
             }
+            //comment
             return ReferenceEquals(left, null) || left.Equals(right);
         }
 
